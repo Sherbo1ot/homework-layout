@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: rgb(222, 222, 222);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(49, 49, 49);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  margin-right: 10px;
+  list-style-type: none;
+  padding: 7px;
+  width: 50px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  color: gold;
+  transition: 0.6s;
+}
+.logo {
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 12px;
+  height: 40px;
+  width: 80px;
+  padding-top: 11px;
+  border-radius: 50%;
+}
+header {
+  background-image: url(https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2022/02/KOA_Nassau_2697x1517.jpg?itok=iQEwihUn);
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(114, 114, 114);
+}
+h1 {
+}
+footer {
+  background-color: orange;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+.card {
+  flex-wrap: wrap;
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px 0 40px 40px;
+  text-align: center;
+  box-shadow: 5px 5px 10px 2px rgba(125, 125, 125, 0.542);
+}
+.card-img {
+  position: absolute;
+  left: 20px;
+  top: 590px;
+  width: 80px;
+  height: 77px;
+  border-radius: 50%;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+.number h1 {
+  margin: 0;
+  background-color: rgb(77, 255, 0);
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: -25px;
+  margin-top: -30px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.first img {
+  margin-left: -35px;
+  margin-top: -40px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
